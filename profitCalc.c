@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-
+// calculation of income growth for 5 years at 7.5 percent
 int main(void)
 {
 	double m = 1200;
