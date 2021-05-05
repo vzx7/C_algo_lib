@@ -6,7 +6,7 @@ if test $1
     if test $2
         then
             gcc ./$1 -o ./build/$2
-            echo "Файл $1 успешно скомпилирован в ./build/$2"
+            echo "File $1 successfully compiled into ./build/$2"
         else 
             echo "Please pass the name of the file for the compilation output as the second argument!"
             echo -e $EXAMP;
