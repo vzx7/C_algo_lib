@@ -1,6 +1,12 @@
 #!/usr/bin/bash
 
 EXAMP="Example:\n $./builder.sh source_file_name comp_output_filenme"
+
+if ! [ -d ./build ]; 
+    then
+        mkdir build;
+fi
+
 if test $1
     then
     if test $2
